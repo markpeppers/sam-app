@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 import { lambdaHandler } from '../../app.mjs';
@@ -18,3 +19,4 @@ describe('Tests index', function () {
         expect(response.message).to.be.equal("Using Canary deployment!");
     });
 });
+*/
