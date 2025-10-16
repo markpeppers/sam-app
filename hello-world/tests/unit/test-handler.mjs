@@ -1,4 +1,3 @@
-/*
 'use strict';
 
 import { lambdaHandler } from '../../app.mjs';
@@ -16,7 +15,6 @@ describe('Tests index', function () {
         let response = JSON.parse(result.body);
 
         expect(response).to.be.an('object');
-        expect(response.message).to.be.equal("Using Canary deployment!");
+        expect(response.message).to.be.equal("Hello world with canary deployment");
     });
 });
-*/
