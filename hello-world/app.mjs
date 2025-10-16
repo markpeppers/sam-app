@@ -12,6 +12,8 @@
  */
 
 export const lambdaHandler = async (event, context) => {
+  throw new Error("Cause deployment rollback")
+  /*
     const response = {
       statusCode: 200,
       body: JSON.stringify({
@@ -20,5 +22,6 @@ export const lambdaHandler = async (event, context) => {
     };
 
     return response;
+    */
   };
   
