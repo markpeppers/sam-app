@@ -15,7 +15,7 @@ export const lambdaHandler = async (event, context) => {
     const response = {
       statusCode: 200,
       body: JSON.stringify({
-        message: '\'sup my dude',
+        message: 'Using Canary deployment!',
       })
     };
 
